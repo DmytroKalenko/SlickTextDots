@@ -1,5 +1,6 @@
 $('.slider').slick({
     dots: true,
+    autoplay: true,
     customPaging: function (slider, i) {
         var title = $(slider.$slides[i]).data('title');
         return '<span class="dots__item">' + title +  '</span>';
